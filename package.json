@@ -1,0 +1,29 @@
+{
+  "name": "short-url",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@hennge/vue3-pagination": "^1.0.17",
+    "axios": "^1.6.8",
+    "pinia": "^2.1.7",
+    "vue": "^3.4.21",
+    "vue-router": "^4.3.2",
+    "vue-sweetalert2": "^5.0.10",
+    "vue-toastification": "^2.0.0-rc.5",
+    "vue3-spinners": "^1.0.4"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.0.4",
+    "autoprefixer": "^10.4.19",
+    "postcss": "^8.4.38",
+    "sass": "^1.77.2",
+    "tailwindcss": "^3.4.3",
+    "vite": "^5.2.0"
+  }
+}

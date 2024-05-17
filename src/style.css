@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .container {
+    @apply w-[90%] max-w-screen-xl mx-auto;
+  }
+  .isValid {
+    @apply border-green-500;
+  }
+  .inValid {
+    @apply border-red-500;
+  }
+}
+
+.fa-copy {
+  color: #3b358e;
+  size: 40px;
+}
+
+.fa-trash {
+  color: #3b358e;
+  size: 40px;
+}
+
+.fa-pen-to-square {
+  color: #3b358e;
+  size: 40px;
+}
+
+.Pagination {
+  color: #3b358e !important;
+  background-color: #3b358e;
+}
+
+.v-spinner {
+  color: #ffff !important;
+}
